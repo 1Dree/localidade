@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="//fonts.googleapis.com/css?family=Roboto+Slab:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <h1>Encontre a localidade desejada.</h1>
+
+    <div id="app">
+      <form>
+        <input type="text" placeholder="Digíte o CEP" id="cep" />
+
+        <button type="button" id="action">encontrar</button>
+      </form>
+
+      <ul id="result">
+        <li id="rua">
+          Rua:
+          <p></p>
+        </li>
+
+        <li id="bairro">
+          Bairro:
+          <p></p>
+        </li>
+
+        <li id="cidade">
+          Cidade:
+          <p></p>
+        </li>
+
+        <li id="estado">
+          Estado:
+          <p></p>
+        </li>
+
+        <li id="ibge">
+          IBGE:
+          <p></p>
+        </li>
+      </ul>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

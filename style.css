@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  font-family: "Roboto Slab";
+}
+
+body h1 {
+  font-weight: normal;
+  padding: 20px 0;
+}
+
+#app {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: flex;
+}
+
+form input,
+form button {
+  font-size: 1.2rem;
+  padding: 0.6em 1.5em;
+}
+
+form input {
+  width: 70%;
+  outline: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+form button {
+  cursor: pointer;
+  width: 30%;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid rgb(63, 235, 63);
+  background-color: rgb(63, 235, 63);
+}
+
+label input {
+  padding: 10px;
+}
+
+ul#result {
+  margin-top: 30px;
+  text-align: left;
+  list-style-type: none;
+}
+
+ul li {
+  color: rgb(61, 61, 61);
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+li p {
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 5px 0;
+  margin-top: 10px;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+}
